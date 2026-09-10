@@ -1,13 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="585" viewBox="0 0 1122 585" role="img" aria-label="Recalc and insert mock">
-  <rect width="1122" height="585" fill="#dfe8da"/>
-  <rect x="80" y="48" width="962" height="489" rx="6" fill="#f4f7f2" stroke="#b7c4b4"/>
-  <rect x="80" y="48" width="962" height="36" fill="#e8efe6" stroke="#b7c4b4"/>
-  <circle cx="104" cy="66" r="6" fill="#e07a6a"/><circle cx="124" cy="66" r="6" fill="#d4b35a"/><circle cx="144" cy="66" r="6" fill="#6aae7a"/>
-  <text x="170" y="72" font-family="Segoe UI, sans-serif" font-size="14" fill="#1a2420">Recalc &amp; insert</text>
-  <rect x="400" y="120" width="300" height="50" fill="#fff" stroke="#b7c4b4" stroke-dasharray="4 3" opacity="0.5"/>
-  <rect x="400" y="186" width="300" height="90" fill="#f4effa" stroke="#7a5aa6" stroke-width="2"/>
-  <circle cx="670" cy="210" r="10" fill="none" stroke="#7a5aa6" stroke-width="3" stroke-dasharray="12 6"/>
-  <rect x="400" y="292" width="300" height="70" fill="#fff" stroke="#2f6f4e" stroke-width="2"/>
-  <text x="420" y="332" font-family="Segoe UI, sans-serif" font-size="13" fill="#2f6f4e">new steps inserted</text>
-  <rect x="400" y="380" width="300" height="60" fill="#fff" stroke="#b7c4b4"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="585" viewBox="0 0 1122 585">
+  <rect width="1122" height="585" fill="#d7e3d2"/>
+  <rect x="48" y="36" width="1026" height="513" rx="8" fill="#f4f7f2" stroke="#9aab98"/>
+  <rect x="48" y="36" width="1026" height="40" fill="#e4eee4" stroke="#9aab98"/>
+  <circle cx="76" cy="56" r="6" fill="#e07a6a"/>
+  <circle cx="96" cy="56" r="6" fill="#d4b35a"/>
+  <circle cx="116" cy="56" r="6" fill="#6aae7a"/>
+  <text x="140" y="62" font-family="Segoe UI, sans-serif" font-size="15" fill="#1a2420">Recalc and insert</text>
+  <rect x="360" y="100" width="400" height="410" rx="4" fill="#ffffff" stroke="#c5d0c2"/>
+  <text x="378" y="128" font-family="Segoe UI, sans-serif" font-size="12" fill="#6a7a70" letter-spacing="1">SESSION</text>
+  <text x="378" y="150" font-family="Segoe UI, sans-serif" font-size="16" fill="#1a2420">task-ci</text>
+  <rect x="378" y="172" width="344" height="44" fill="#ffffff" stroke="#b7c4b4" stroke-dasharray="5 4" opacity="0.7"/>
+  <text x="392" y="199" font-family="Segoe UI, sans-serif" font-size="13" fill="#8a948c">Wait CI - invalidated</text>
+  <rect x="378" y="228" width="344" height="72" fill="#f4effa" stroke="#7a5aa6" stroke-width="2"/>
+  <circle cx="692" cy="252" r="9" fill="none" stroke="#7a5aa6" stroke-width="3"/>
+  <text x="392" y="258" font-family="Segoe UI, sans-serif" font-size="14" fill="#5a3d86">Recalculating dependents</text>
+  <text x="392" y="280" font-family="Segoe UI, sans-serif" font-size="12" fill="#7a5aa6">circle wait</text>
+  <rect x="378" y="312" width="344" height="64" fill="#eef6f1" stroke="#2f6f4e" stroke-width="2"/>
+  <text x="392" y="340" font-family="Segoe UI, sans-serif" font-size="14" fill="#2f6f4e">Re-check CI flake</text>
+  <text x="392" y="360" font-family="Segoe UI, sans-serif" font-size="12" fill="#3d5c4a">inserted into the gap</text>
+  <rect x="378" y="388" width="344" height="52" fill="#ffffff" stroke="#2f6f4e"/>
+  <text x="392" y="419" font-family="Segoe UI, sans-serif" font-size="13" fill="#2f6f4e">Retry publish</text>
 </svg>

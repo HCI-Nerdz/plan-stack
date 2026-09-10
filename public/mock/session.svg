@@ -1,13 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="585" viewBox="0 0 1122 585" role="img" aria-label="Session stack mock">
-  <rect width="1122" height="585" fill="#dfe8da"/>
-  <rect x="80" y="48" width="962" height="489" rx="6" fill="#f4f7f2" stroke="#b7c4b4"/>
-  <rect x="80" y="48" width="962" height="36" fill="#e8efe6" stroke="#b7c4b4"/>
-  <circle cx="104" cy="66" r="6" fill="#e07a6a"/><circle cx="124" cy="66" r="6" fill="#d4b35a"/><circle cx="144" cy="66" r="6" fill="#6aae7a"/>
-  <text x="170" y="72" font-family="Segoe UI, sans-serif" font-size="14" fill="#1a2420">Session stack</text>
-  <rect x="420" y="110" width="280" height="380" fill="#fff" stroke="#b7c4b4"/>
-  <rect x="434" y="128" width="252" height="42" fill="#f3f8fc" stroke="#2b6cb0" stroke-width="2"/>
-  <rect x="434" y="182" width="252" height="36" fill="#fff" stroke="#b7c4b4"/>
-  <rect x="434" y="230" width="252" height="150" fill="#fff" stroke="#c47a2c" stroke-width="2"/>
-  <text x="448" y="312" font-family="Segoe UI, sans-serif" font-size="13" fill="#5c6b62">Wait CI · ETA 7m</text>
-  <rect x="434" y="392" width="252" height="58" fill="#fff" stroke="#b7c4b4"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="585" viewBox="0 0 1122 585">
+  <rect width="1122" height="585" fill="#d7e3d2"/>
+  <rect x="48" y="36" width="1026" height="513" rx="8" fill="#f4f7f2" stroke="#9aab98"/>
+  <rect x="48" y="36" width="1026" height="40" fill="#e4eee4" stroke="#9aab98"/>
+  <circle cx="76" cy="56" r="6" fill="#e07a6a"/>
+  <circle cx="96" cy="56" r="6" fill="#d4b35a"/>
+  <circle cx="116" cy="56" r="6" fill="#6aae7a"/>
+  <text x="140" y="62" font-family="Segoe UI, sans-serif" font-size="15" fill="#1a2420">Coordinator session</text>
+  <rect x="390" y="100" width="340" height="410" rx="4" fill="#ffffff" stroke="#c5d0c2"/>
+  <text x="408" y="128" font-family="Segoe UI, sans-serif" font-size="12" fill="#6a7a70" letter-spacing="1">SESSION</text>
+  <text x="408" y="148" font-family="Segoe UI, sans-serif" font-size="16" fill="#1a2420">coord-main</text>
+  <rect x="408" y="168" width="304" height="48" fill="#f3f8fc" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="422" y="197" font-family="Segoe UI, sans-serif" font-size="14" fill="#1a2420">Draft speculative plan</text>
+  <rect x="408" y="224" width="304" height="36" fill="#f7faf6" stroke="#4a7c59"/>
+  <text x="422" y="247" font-family="Segoe UI, sans-serif" font-size="13" fill="#3d5c4a">Push branch - done</text>
+  <rect x="408" y="272" width="304" height="168" fill="#fff8f0" stroke="#c47a2c" stroke-width="2"/>
+  <text x="422" y="310" font-family="Segoe UI, sans-serif" font-size="15" fill="#1a2420">Wait CI</text>
+  <text x="422" y="334" font-family="Segoe UI, sans-serif" font-size="13" fill="#8a5a20">waiting - ETA 7m</text>
+  <text x="422" y="360" font-family="Segoe UI, sans-serif" font-size="12" fill="#8a5a20">taller cell = longer wait</text>
+  <rect x="408" y="452" width="304" height="52" fill="#ffffff" stroke="#b7c4b4"/>
+  <text x="422" y="483" font-family="Segoe UI, sans-serif" font-size="13" fill="#5c6b62">Changelog queued</text>
 </svg>

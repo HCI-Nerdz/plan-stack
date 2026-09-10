@@ -43,7 +43,7 @@ body {
 .vcs-row a { color: var(--ink); display: inline-flex; }
 
 .page {
-  max-width: 58rem;
+  max-width: 52rem;
   margin: 0 auto;
   padding: 0 1.25rem 3rem;
 }
@@ -63,14 +63,11 @@ h1 {
 .lede strong { color: var(--ink); font-weight: 600; }
 
 .variant-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
   margin: 1.75rem 0;
   font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
-}
-@media (max-width: 800px) {
-  .variant-grid { grid-template-columns: 1fr; }
 }
 
 .variant-tile {
@@ -88,16 +85,17 @@ h1 {
 }
 .variant-tile img, .variant-tile .mock {
   width: 100%;
+  height: auto;
   aspect-ratio: 1122 / 585;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   pointer-events: none;
   background: #dde5d8;
   border: 1px solid var(--line);
 }
 .variant-tile h2 {
-  font-size: 1rem;
-  margin: 0.65rem 0 0.25rem;
+  font-size: 1.2rem;
+  margin: 0.75rem 0 0.25rem;
   font-family: "Source Serif 4", Georgia, serif;
 }
 .variant-tile p {
