@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="585" viewBox="0 0 1122 585" role="img" aria-label="Harness columns mock">
+  <rect width="1122" height="585" fill="#dfe8da"/>
+  <rect x="80" y="48" width="962" height="489" rx="6" fill="#f4f7f2" stroke="#b7c4b4"/>
+  <rect x="80" y="48" width="962" height="36" fill="#e8efe6" stroke="#b7c4b4"/>
+  <circle cx="104" cy="66" r="6" fill="#e07a6a"/><circle cx="124" cy="66" r="6" fill="#d4b35a"/><circle cx="144" cy="66" r="6" fill="#6aae7a"/>
+  <text x="170" y="72" font-family="Segoe UI, sans-serif" font-size="14" fill="#1a2420">DevCentr harness</text>
+  <rect x="120" y="110" width="220" height="360" fill="#fff" stroke="#b7c4b4"/>
+  <rect x="360" y="110" width="220" height="360" fill="#fff" stroke="#b7c4b4"/>
+  <rect x="600" y="110" width="220" height="360" fill="#fff" stroke="#b7c4b4"/>
+  <rect x="380" y="200" width="180" height="120" fill="#fff" stroke="#c47a2c" stroke-width="2"/>
+  <text x="400" y="265" font-family="Segoe UI, sans-serif" font-size="12" fill="#5c6b62">session columns ’</text>
+</svg>

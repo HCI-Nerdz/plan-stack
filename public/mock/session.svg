@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="585" viewBox="0 0 1122 585" role="img" aria-label="Session stack mock">
+  <rect width="1122" height="585" fill="#dfe8da"/>
+  <rect x="80" y="48" width="962" height="489" rx="6" fill="#f4f7f2" stroke="#b7c4b4"/>
+  <rect x="80" y="48" width="962" height="36" fill="#e8efe6" stroke="#b7c4b4"/>
+  <circle cx="104" cy="66" r="6" fill="#e07a6a"/><circle cx="124" cy="66" r="6" fill="#d4b35a"/><circle cx="144" cy="66" r="6" fill="#6aae7a"/>
+  <text x="170" y="72" font-family="Segoe UI, sans-serif" font-size="14" fill="#1a2420">Session stack</text>
+  <rect x="420" y="110" width="280" height="380" fill="#fff" stroke="#b7c4b4"/>
+  <rect x="434" y="128" width="252" height="42" fill="#f3f8fc" stroke="#2b6cb0" stroke-width="2"/>
+  <rect x="434" y="182" width="252" height="36" fill="#fff" stroke="#b7c4b4"/>
+  <rect x="434" y="230" width="252" height="150" fill="#fff" stroke="#c47a2c" stroke-width="2"/>
+  <text x="448" y="312" font-family="Segoe UI, sans-serif" font-size="13" fill="#5c6b62">Wait CI · ETA 7m</text>
+  <rect x="434" y="392" width="252" height="58" fill="#fff" stroke="#b7c4b4"/>
+</svg>

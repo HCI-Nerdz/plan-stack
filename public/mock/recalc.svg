@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="585" viewBox="0 0 1122 585" role="img" aria-label="Recalc and insert mock">
+  <rect width="1122" height="585" fill="#dfe8da"/>
+  <rect x="80" y="48" width="962" height="489" rx="6" fill="#f4f7f2" stroke="#b7c4b4"/>
+  <rect x="80" y="48" width="962" height="36" fill="#e8efe6" stroke="#b7c4b4"/>
+  <circle cx="104" cy="66" r="6" fill="#e07a6a"/><circle cx="124" cy="66" r="6" fill="#d4b35a"/><circle cx="144" cy="66" r="6" fill="#6aae7a"/>
+  <text x="170" y="72" font-family="Segoe UI, sans-serif" font-size="14" fill="#1a2420">Recalc &amp; insert</text>
+  <rect x="400" y="120" width="300" height="50" fill="#fff" stroke="#b7c4b4" stroke-dasharray="4 3" opacity="0.5"/>
+  <rect x="400" y="186" width="300" height="90" fill="#f4effa" stroke="#7a5aa6" stroke-width="2"/>
+  <circle cx="670" cy="210" r="10" fill="none" stroke="#7a5aa6" stroke-width="3" stroke-dasharray="12 6"/>
+  <rect x="400" y="292" width="300" height="70" fill="#fff" stroke="#2f6f4e" stroke-width="2"/>
+  <text x="420" y="332" font-family="Segoe UI, sans-serif" font-size="13" fill="#2f6f4e">new steps inserted</text>
+  <rect x="400" y="380" width="300" height="60" fill="#fff" stroke="#b7c4b4"/>
+</svg>

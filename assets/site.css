@@ -1,0 +1,240 @@
+:root {
+  --ink: #1c2218;
+  --paper: #eef2ea;
+  --panel: #f7f9f5;
+  --line: #b8c4b4;
+  --accent: #2f6f4e;
+  --waiting: #c47a2c;
+  --active: #2b6cb0;
+  --done: #4a7c59;
+  --recalc: #7a5aa6;
+  --muted: #5a675e;
+  --harness: #dfe6dc;
+  font-family: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(ellipse 70% 45% at 0% 0%, #d8e4d2 0%, transparent 55%),
+    var(--paper);
+  min-height: 100vh;
+}
+
+.identity-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.85rem 1.25rem 0.25rem;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+}
+.identity-strip a { color: var(--accent); text-decoration: none; }
+.identity-strip a:hover { text-decoration: underline; }
+.identity-sep { color: var(--muted); opacity: 0.7; }
+
+.vcs-row {
+  margin: 0;
+  padding: 0.25rem 1.25rem 0.75rem;
+}
+.vcs-row a { color: var(--ink); display: inline-flex; }
+
+.page {
+  max-width: 58rem;
+  margin: 0 auto;
+  padding: 0 1.25rem 3rem;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0.4rem 0 0.6rem;
+}
+.lede {
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--muted);
+  max-width: 40rem;
+}
+.lede strong { color: var(--ink); font-weight: 600; }
+
+.variant-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.75rem 0;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+@media (max-width: 800px) {
+  .variant-grid { grid-template-columns: 1fr; }
+}
+
+.variant-tile {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  padding: 0.65rem;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+.variant-tile:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+.variant-tile img, .variant-tile .mock {
+  width: 100%;
+  aspect-ratio: 1122 / 585;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+  background: #dde5d8;
+  border: 1px solid var(--line);
+}
+.variant-tile h2 {
+  font-size: 1rem;
+  margin: 0.65rem 0 0.25rem;
+  font-family: "Source Serif 4", Georgia, serif;
+}
+.variant-tile p {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.demo-harness {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  border: 1px dashed color-mix(in srgb, var(--muted) 55%, transparent);
+  background: var(--harness);
+  padding: 0.65rem 0.85rem;
+  margin: 1.25rem 0 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+.demo-harness .label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-right: 0.35rem;
+}
+.demo-harness button {
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+}
+.demo-harness button:hover { background: var(--accent); color: #f5faf6; }
+
+.facsimile-bezel {
+  border: 1px solid var(--line);
+  background: #1a2420;
+  box-shadow: 0 16px 40px color-mix(in srgb, #1a2420 18%, transparent);
+  overflow: hidden;
+}
+.facsimile-bezel .chrome {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.7rem;
+  background: #2a3530;
+  color: #d7e0d6;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+}
+.facsimile-bezel .dots { display: flex; gap: 0.28rem; }
+.facsimile-bezel .dots i {
+  width: 0.5rem; height: 0.5rem; border-radius: 50%; background: #6a756c; display: block;
+}
+.facsimile-bezel .dots i:nth-child(1) { background: #e07a6a; }
+.facsimile-bezel .dots i:nth-child(2) { background: #d4b35a; }
+.facsimile-bezel .dots i:nth-child(3) { background: #6aae7a; }
+
+.desk-body {
+  background: #e8efe6;
+  padding: 0.85rem;
+  min-height: 18rem;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+.columns {
+  display: flex;
+  gap: 0.65rem;
+  overflow-x: auto;
+}
+.column {
+  flex: 0 0 10.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.column-head {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.column-head strong {
+  display: block;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--ink);
+  font-size: 0.85rem;
+  margin-top: 0.1rem;
+}
+
+.phase {
+  position: relative;
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 0.35rem 0.45rem;
+  font-size: 0.78rem;
+  min-height: 2rem;
+  transition: min-height 280ms ease, transform 360ms ease, opacity 280ms ease;
+}
+.phase .meta { font-size: 0.65rem; color: var(--muted); margin-top: 0.15rem; }
+.phase[data-status="waiting"] { border-left: 3px solid var(--waiting); }
+.phase[data-status="active"] { border-left: 3px solid var(--active); }
+.phase[data-status="done"] { border-left: 3px solid var(--done); opacity: 0.7; }
+.phase[data-status="pending"] { border-left: 3px solid var(--line); }
+.phase[data-status="recalculating"] { border-left: 3px solid var(--recalc); background: #f4effa; }
+.phase[data-status="invalidated"] { opacity: 0.4; text-decoration: line-through; border-style: dashed; }
+.phase.is-insert { animation: insertIn 420ms ease; }
+@keyframes insertIn {
+  from { opacity: 0; transform: translateY(-10px) scaleY(0.8); }
+  to { opacity: 1; transform: none; }
+}
+.spinner {
+  position: absolute; top: 0.35rem; right: 0.35rem;
+  width: 0.75rem; height: 0.75rem;
+  border: 2px solid color-mix(in srgb, var(--recalc) 35%, transparent);
+  border-top-color: var(--recalc);
+  border-radius: 50%;
+  animation: spin 0.75s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.variant-blurb {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--muted);
+  max-width: 40rem;
+  margin: 0.5rem 0 0;
+}
+
+.related {
+  margin-top: 1.5rem;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+}
+.related a { color: var(--accent); }
